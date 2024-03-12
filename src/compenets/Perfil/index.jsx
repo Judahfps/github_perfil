@@ -7,7 +7,7 @@ const Perfil = ({nomeUsuario}) => {
     }
     return(
         <header className={styles.header}>
-            <img className={styles.avatar} src= {`./src/compenets/Perfil/imagens/gnome.jpeg`} alt="Jupter"/>
+            <img className={styles.avatar} src= {`./src/compenets/Perfil/imagens/gnome.jpeg`}/>
             <h1 className={styles.name}>
                 {nomeUsuario}
                 </h1>
